@@ -1,5 +1,5 @@
-username = input("შეიყვანეთ თქვენი სახელი")
-print("hello nqzz.xz !")
+username = input("enter your username")
+print("hello" + username)
 
 
 

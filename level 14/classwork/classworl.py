@@ -2,8 +2,8 @@
 
 
 tu_aris_18 = True
-tu_aqvs_martvis_mowmoba = True
-print(True and True)
+tu_ar_aris_18 = False 
+print(True and False)
 
 
 

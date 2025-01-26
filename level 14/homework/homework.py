@@ -1,16 +1,7 @@
 # დაწერე პროგრამა, რომელიც ამოწმებს, შეყვანილი რიცხვი 5-სა და 15-ს შორის არის, მაგრამ არა 10-ის ტოლი.
+number=int(input("Enter your number"))
 
-
-if (num > 5 and num < 10) or (num > 10 and num < 15):
-    return "რიცხვი 5-სა და 15-ს შორის არის და არ არის 10-ის ტოლი."
-else:
-    return "რიცხვი არ არის ამ დიაპაზონში ან არის 10-ის ტოლი."
-
-
-number = int(input("შეიყვანეთ რიცხვი: "))
-result = check_number(number)
-print(result)
-
+print(15>number>5 and number!=10)
 
 
 

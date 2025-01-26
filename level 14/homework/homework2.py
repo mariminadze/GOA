@@ -1,17 +1,7 @@
  #მომხმარებელმა უნდა შეიყვანოს თავისი ასაკი და სახელი. პროგრამამ უნდა შეამოწმოს, რომ ასაკი 18-ზე მეტია და სახელი იწყება "A"-ზე.
 
+age=int(input("enter your age"))
+name=input("enter your name")
 
 
-
-def check_user(name, age): 
-    if age > 18 and name[0].upper() == 'A':
-         return "თქვენი ასაკი 18-ზე მეტია და სახელი 'A' ასოთი იწყება."
-         else : return "თქვენ არ აკმაყოფილებთ მოთხოვნებს."
-
-
-
- # მომხმარებლის მონაცემები
- #  name = input("შეიყვანეთ თქვენი სახელი: ")
-age = int(input("შეიყვანეთ თქვენი ასაკი: "))
-შედეგი = check_user(name, age)
-print(შედეგი)
+print(age>18 and name.startswith("A"))

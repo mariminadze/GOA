@@ -2,8 +2,8 @@
 
 
 tu_aris_18 = True
-tu_ar_aris_18 = False 
-print(True and False)
+aqvs_martvis_mowmoba= False
+print(tu_aris_18 and aqvs_martvis_mowmoba)
 
 
 
@@ -12,15 +12,15 @@ print(True and False)
 tu_100_larze_metia = True
 tu_aris_vip = True
 
-print( True or True)
+print( tu_100_larze_metia or tu_aris_vip)
 
 
 # ოთახის გათბობა აქტიურდება თუ ტემპერატურა ან ძალიან დაბალია ან ძალიან მაღალი
 
-tu_temp_magalia_an_dabali = True
-tu_temp_ar_aris_dabali_an_magali = False
+temp_magalia = True
+temp_dabalia = False
 
-print(True or False)
+print(temp_magalia or temp_dabalia)
 
 
 
@@ -29,4 +29,4 @@ print(True or False)
 
 tu_aqvt_barati = True
 tu_aqvt_nebartva = True 
-print(True or True)
+print(tu_aqvt_barati or tu_aqvt_nebartva)

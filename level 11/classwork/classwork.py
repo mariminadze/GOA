@@ -60,6 +60,12 @@ print(54!=65)
 
 
 
-print("hello"!="hellow")
+#2
 
-print("hello"=="hellow")
+
+
+name="hello"
+name2="hello"
+print(name==name2)
+
+print(name!=name2)

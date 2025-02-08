@@ -4,21 +4,23 @@
 Puri=True
 yveli=True
 
-print(True or False )
+print(Puri or yveli)
 
 #2) შეამოწმე ორივე ცვლადი  მართალია თუ არა
 
 Puri=True
 yveli=True
 
-print(True and True )
+print(Puri and yveli )
 
 
 #3) შეამოწმე არის თუ არა ორი რიცხვი თანაბარი  ან პირველი რიცხვი მეტი მეორეზე.
 
 
-print(10==10)
-print(10>7)
+num1=int(input("enter your first number"))
+num2=int(input("enter your second number"))
+print(num1==num2 or num1>num2)
+
 
 
 
@@ -27,6 +29,8 @@ print(10>7)
 
 age=int(input("enter your age"))
 print(6>age<12)
+
+
 
 
 

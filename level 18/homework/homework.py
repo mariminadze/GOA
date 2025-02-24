@@ -2,6 +2,6 @@
 
 
 
-for num in range(0, 101):
+for num in range(0, 100):
     print("Goa is the best")
     
